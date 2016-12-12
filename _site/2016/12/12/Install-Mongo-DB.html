@@ -1,0 +1,14 @@
+<p>Follow <a href="https://docs.mongodb.com/v3.2/tutorial/install-mongodb-on-ubuntu/">this tutorial</a>.</p>
+
+<p>If an error occurs regarding /dada/db when running <code class="highlighter-rouge">mongod</code>, then do:</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>sudo mkdir -p /data/db;
+sudo chown -R $USER:$USER /data/db;
+</code></pre>
+</div>
+
+<p>Then run the service:</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>sudo service mongod start
+</code></pre>
+</div>
+
+<p>That’s all :)</p>
